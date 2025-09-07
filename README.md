@@ -375,7 +375,7 @@ The application includes comprehensive sample data:
 
 - **6 Users**: Different spending patterns and behaviors
 - **15 Categories**: Comprehensive expense categorization
-- **100+ Expenses**: Multi-month data for statistics
+- **50+ Expenses**: Multi-month data for statistics
 
 ## 🚀 Performance Optimizations
 
