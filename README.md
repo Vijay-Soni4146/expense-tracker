@@ -190,44 +190,6 @@ Uses LAG window function to compare current month spending with previous month a
 ### 3. Spending Predictions
 Calculates average spending over last 3 months to predict next month's expenditure.
 
-## Setup Instructions
-
-1. **Install Dependencies**
-   ```bash
-   cd backend
-   npm install
-   ```
-
-2. **Database Setup**
-   ```bash
-   # Create MySQL database
-   mysql -u root -p
-   source database/schema.sql
-   ```
-
-3. **Environment Configuration**
-   ```bash
-   cp .env.example .env
-   # Update .env with your database credentials
-   ```
-
-4. **Start Server**
-   ```bash
-   npm run dev  # Development with nodemon
-   npm start    # Production
-   ```
-
-## Environment Variables
-
-```env
-DB_HOST=localhost
-DB_USER=your_username
-DB_PASSWORD=your_password
-DB_NAME=expense_tracker
-PORT=5000
-NODE_ENV=development
-```
-
 ## API Response Format
 
 ### Success Response
