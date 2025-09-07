@@ -410,7 +410,6 @@ backend/
 ├── routes/            # API routes
 ├── middleware/        # Custom middleware
 ├── config/            # Configuration files
-└── migrations/        # Database migrations
 ```
 
 ## 🔧 Environment Configuration
